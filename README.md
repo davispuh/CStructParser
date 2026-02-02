@@ -19,13 +19,13 @@ gem install CStructParser
 ## Usage
 
 ### For usage with [FFI](https://github.com/ffi/ffi)
-```
+```ruby
 sourceCode = 'struct s { int a; float b; };' # Can be path to file aswell
 CStructParser.to_ffi(sourceCode)
 ```
 
 ### For usage with [BinData](https://github.com/dmendel/bindata)
-```
+```ruby
 CStructParser.to_bindata('stuff.h')
 ```
 
